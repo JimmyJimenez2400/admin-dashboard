@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    margin: 0;
+    display: grid;
+    grid-template: auto 4fr / 1fr 4fr;
+}
+
+#container{
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#container div{
+    padding: 15px;
+    font-size: 16px;
+}
+
+#header{
+    background-color: aqua;
+}
+
+#sidebar{
+background-color: blueviolet;
+}
+
+#main-content{
+    background-color:coral;
+
+}
