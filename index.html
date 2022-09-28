@@ -5,60 +5,67 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@mdi/font@6.9.96/css/materialdesignicons.min.css">
     <title>Document</title>
 </head>
 <body>
     <div id="container">
         <header id="header">
-            <div class="search-bar">
-                <label for="searchBar">ICON</label>
-                <input type="search" name="search" id="searchbar">
+            <div class="item search-bar">
+                <label for="searchBar">
+                    <img src="./img/search-icon.png" alt="Search Icon">
+                </label>
+                <input class="searchBar" type="search" name="search" id="searchbar">
             </div>
-            <div class="profile-pictire">
-                <div class="alert">Alert Bell</div>
-                <div class="user-picture">
-                    <img src="" alt="Image">
+            <div class="grid-item profile-picture">
+                <div class="alert">
+                    <img src="" alt="alert">
                 </div>
-                <div class="user-name">Jimmy Jimenez</div>
+                <div class="user-picture">
+                    <img src="./img/deku.png" alt="Image">
+                </div>
+                <div class="user-name">
+                    <h3>Jimmy Jimenez</h3>
+                </div>
             </div>
-            <div class="profile-welcome">
+            <div class="grid-item profile-welcome">
                 <div class="user-profile-picture">
-                    <img src="" alt="Profile Pic">
+                    <img src="./img/deku.png" alt="Profile Pic">
                 </div>
                 <div class="welcome-user">
                     <p>Hi there,</p>
                     <h2>Jimmy Jimenez (@jimmy)</h2>
                 </div>
             </div>
-            <div class="btn-profile">
+            <div class="grid-item btn-profile">
                 <div class="btn-1"><button>NEW</button></div>
                 <div class="btn-2"><button>UPLOAD</button></div>
                 <div class="btn-3"><button>SHARE</button></div>
             </div>
         </header>
         <nav id="sidebar">
-            <div class="logo"><img src="" alt="Logo"></div>
-            <div class="main-links">
+            <div class="grid-item logo"><a href="#"><img src="./img/steam-icon.png" alt="Steam Icon"><h3>Steam</h3></a></div>
+            <div class="grid-item main-links">
                 <ul>
-                    <li><img src="" alt=""><p>Home</p></li>
-                    <li><img src="" alt=""><p>Profile</p></li>
-                    <li><img src="" alt=""><p>Messages</p></li>
-                    <li><img src="" alt=""><p>History</p></li>
-                    <li><img src="" alt=""><p>Tasks</p></li>
-                    <li><img src="" alt=""><p>Communities</p></li>
+                    <li><a href="#"><img src="./img/home-icon.png" alt="Home Icon">Home</a></li>
+                    <li><a href="#"><img src="./img/profile-icon.png" alt="Profile Icon">Profile</a></li>
+                    <li><a href="#"><img src="./img/message-icon.png" alt="Message Icon">Messages</a></li>
+                    <li><a href="#"><img src="./img/history-icon.png" alt="History Icon">History</a></li>
+                    <li><a href="#"><img src="./img/list-icon.png" alt="List Icon">Tasks</a></li>
+                    <li><a href="#"><img src="./img/community-icon.png" alt="Community Icon">Communities</a></li>
                 </ul>
             </div>
-            <div class="second-links">
+            <div class="grid-item second-links">
                 <ul>
-                    <li><img src="" alt=""><p>Settings</p></li>
-                    <li><img src="" alt=""><p>Support</p></li>
-                    <li><img src="" alt=""><p>Privacy</p></li>
+                    <li><a href="#"><img src="./img/setting-icon.png" alt="Setting Icon">Settings</a></li>
+                    <li><a href="#"><img src="./img/support-icon.png" alt="Support Icon">Support</a></li>
+                    <li><a href="#"><img src="./img/privacy-icon.png" alt="Privacy Icon">Privacy</a></li>
                 </ul>
             </div>
         </nav>
         <main id="main-content">
-            <h4>Your Projects</h4>
             <div class="projects">
+                <h4>Your Projects</h4>
                 <div class="project item1">
                     <div class="left-border"></div>
                     <div class="information">
@@ -71,7 +78,7 @@
                         <img src="" alt="icon3">
                     </div>
                 </div>
-                <div class="project item1">
+                <div class="project item2">
                     <div class="left-border"></div>
                     <div class="information">
                         <h3>Super Cool Project</h3>
@@ -83,7 +90,7 @@
                         <img src="" alt="icon3">
                     </div>
                 </div>
-                <div class="project item1">
+                <div class="project item3">
                     <div class="left-border"></div>
                     <div class="information">
                         <h3>Super Cool Project</h3>
